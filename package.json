@@ -1,0 +1,47 @@
+{
+  "name": "template.loc",
+  "version": "1.0.0",
+  "description": "Шаблон автоматизации для верстки",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ron4i/template.git"
+  },
+  "author": "Rinat Atnashev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ron4i/template/issues"
+  },
+  "homepage": "https://github.com/Ron4i/template#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.1",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svgstore": "^9.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
+    "posthtml-include": "^1.7.2",
+    "pump": "^3.0.0",
+    "sass": "^1.45.2"
+  },
+  "dependencies": {
+    "gulp-imagemin": "^7.1.0"
+  }
+}
